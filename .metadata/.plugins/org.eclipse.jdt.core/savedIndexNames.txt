@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\yan.martins\git\APIBanco\.metadata\.plugins\org.eclipse.jdt.core
+476100916.index
+3803894794.index
+1865797976.index
