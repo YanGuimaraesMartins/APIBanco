@@ -2,9 +2,11 @@ package Classes;
 
 public class ContaCorrente extends Conta {	
 	
+
+	
 	public ContaCorrente(Cliente cliente) {
 		super(cliente);
-		
+		super.tipo = "Conta Corrente";
 	}
 
 	@Override
@@ -12,5 +14,7 @@ public class ContaCorrente extends Conta {
 		System.out.println("###  Extrato Conta Corrente  ###");
 		super.imprimirInfosComuns();
 		}
+	
+	
 	
 }

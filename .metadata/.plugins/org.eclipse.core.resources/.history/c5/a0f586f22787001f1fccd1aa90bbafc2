@@ -1,0 +1,22 @@
+package Classes;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Cliente yan = new Cliente();
+		yan.setNome("Yan");
+		
+		Banco BB = new Banco();
+		BB.setNome("Banco do Brasil");
+		
+		Conta cc = new ContaCorrente(yan);
+		Conta cp = new ContaPoupanca(yan);
+		
+		cc.imprimirExtrato();
+		cp.imprimirExtrato();
+		BB.showClients();
+		
+		
+	}
+
+}

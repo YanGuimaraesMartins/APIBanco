@@ -5,6 +5,7 @@ public abstract class Conta implements IConta {
 	private static final int AGENCIA_PADRAO = 1;
 	private static int SEQUENCIAL = 0;
 
+	protected String tipo;
 	protected int agencia;
 	protected int numero;
 	protected double saldo;
@@ -27,6 +28,10 @@ public abstract class Conta implements IConta {
 
 	public double getSaldo() {
 		return saldo;
+	}
+	
+	public String getClientes() {
+		return cliente.getNome();
 	}
 
 	@Override
